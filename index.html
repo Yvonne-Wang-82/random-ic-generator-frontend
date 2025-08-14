@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+  Name: Yvonne Wang
+  Date: 10/17/2024
+  Section: CSE 154 AA
+  This is the index.html page for my mystery ice cream generator for C2. It
+  contains an area for users to enter today's flavors, choose the size of their
+  ice cream, and shows the generated result when ready.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Frost Bite Mystery Scoop Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap"
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Encode+Sans:wght@100..900&family=Pacifico&family=Wendy+One&display=swap"
+    rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to <span>Frost Bite</span>!</h1>
+      <p>Can't decide on a flavor? Use this mystery scoop generator to help you!</p>
+    </header>
+    <main>
+      <article id="setup">
+        <h2>Getting ready...</h2>
+        <section id="flavors">
+          <h3>Enter today's flavors:</h3>
+          <div class="before-drop"></div>
+          <p>(Double click or drag the choices to the box, double click to remove)</p>
+          <article>
+            <!-- Source: Frost Bite coordinators, including myself -->
+          </article>
+        </section>
+        <section id="size">
+          <h3>What size do you want?</h3>
+          <!-- choices -->
+          <select name="size-choice">
+            <option value="small">Small: 2 scoops</option>
+            <option value="large">Large: 4 scoops</option>
+            <option value="are-you-serious">Are You Serious?: 15 scoops!</option>
+          </select>
+        </section>
+        <section id="go">
+          <button>Go!</button>
+        </section>
+      </article>
+      <article id="output">
+        <h2>Your ice cream:</h2>
+        <section>
+          <!-- Source: canva, made by myself -->
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

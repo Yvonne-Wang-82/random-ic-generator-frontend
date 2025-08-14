@@ -1,0 +1,168 @@
+/*
+  Yvonne Wang
+  10/17/2024
+  Section AA, Quinton Pharr
+
+  This is the styles.css file for C2. It contains rulesets used by the index.html
+  page. It has a vanilla ice cream theme.
+*/
+
+body {
+  font-family: "Encode Sans", sans-serif;
+  background-color: rgb(255, 251, 245);
+}
+
+header {
+  height: 300px;
+  align-content: center;
+  text-align: center;
+}
+
+header:before {
+  content: '';
+  background-image: url("img/vanilla-ice-cream-background.jpg");
+  /* source: https://ca.pinterest.com/pin/premium-photo--768848967620375627/ */
+  background-attachment: scroll;
+  background-size: cover;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  z-index: -1;
+}
+
+header h1 {
+  font-family: "Wendy One", sans-serif;
+  font-size: 60px;
+  margin: 20px;
+}
+
+h1 span {
+  color: rgb(31, 161, 248);
+}
+
+header p {
+  font-size: 18px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+article#setup {
+  margin: 10px 40px;
+  align-content: center;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* button modified from: https://getcssscan.com/css-buttons-examples */
+article#setup button {
+  align-self: center;
+  height: 50px;
+  width: 85px;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 600;
+  background-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  transition: all 235ms ease-in-out;
+}
+
+article#setup button:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 1.5px 8px 15px -5px;
+  transform: translate3d(0, 0.5px, 0);
+}
+
+section#flavors article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img.ice-cream-img {
+  height: 100px;
+  width: 228px;
+  margin: 5px;
+  border: solid black 1px;
+  border-radius: 2px;
+  -webkit-user-drag: auto;
+}
+
+div.before-drop {
+  background-color: #fff;
+  border: solid black 2px;
+  width: 85vw;
+  height: 120px;
+  margin: 10px;
+}
+
+div.after-drop {
+  display: flex;
+  background-color: #fff;
+  border: solid black 2px;
+  max-width: 85vw;
+  flex-wrap: wrap;
+}
+
+section#flavors p {
+  text-align: center;
+}
+
+article#setup section {
+  margin: 50px 20px;
+}
+
+section#size select {
+  align-self: center;
+  height: 30px;
+  width: 250px;
+  text-align: start;
+  font-size: 16px;
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+  border-style: solid black 2px;
+  border-radius: 3px;
+}
+
+section#go {
+  text-align: center;
+}
+
+article#output section {
+  visibility: hidden;
+  height: 200px;
+}
+
+article#output section.present-result {
+  visibility: visible;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  margin: auto;
+  height: auto;
+  margin-bottom: 80px;
+}
+
+#output section img {
+  height: 200px;
+  width: auto;
+}
+
+img.cone {
+  height: auto;
+  width: 300px;
+}
