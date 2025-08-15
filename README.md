@@ -14,4 +14,6 @@ Original built as part of a web development course project to practice DOM manip
 - JavaScript
 
 ## Try It Now
-TODO
+[Go to page!](https://yvonne-wang-82.github.io/random-ic-generator-frontend/)
+
+## Screenshot
