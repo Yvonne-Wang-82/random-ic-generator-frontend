@@ -15,13 +15,14 @@ Inspired by my experience working at Frost Bite, a volunteer-based ice cream sho
 - JavaScript
 
 ## Try It Now!
-<a href="https://yvonne-wang-82.github.io/random-ic-generator-frontend/" target="_blank">Go to page!</a>
+[Go to page here (copy and paste in new tab to open seperately)](https://yvonne-wang-82.github.io/random-ic-generator-frontend/)
 
 ## Screenshots
 <p float="left">
   <img src="Screenshot1.png" height="300" align="top" alt="Screenshot of choosing flavor section"/>
   <img src="Screenshot2.png" height="300" align="top" alt="Screenshot of results section"/>
 </p>
+
 
 
 
