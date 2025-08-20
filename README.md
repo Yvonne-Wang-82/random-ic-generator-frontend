@@ -13,13 +13,14 @@ A simple JavaScript-based webpage that randomly generates ice cream flavors base
 - JavaScript
 
 ## Try It Now!
-[Go to page here (copy and paste in new tab to open seperately)](https://yvonne-wang-82.github.io/random-ic-generator-frontend/)
+[Go to page here](https://yvonne-wang-82.github.io/random-ic-generator-frontend/) (copy and paste in new tab to open seperately)
 
 ## Screenshots
 <p float="left">
   <img src="assests/Screenshot1.png" height="300" align="top" alt="Screenshot of choosing flavor section"/>
   <img src="assests/Screenshot2.png" height="300" align="top" alt="Screenshot of results section"/>
 </p>
+
 
 
 
