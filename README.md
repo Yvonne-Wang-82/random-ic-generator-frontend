@@ -19,9 +19,10 @@ Inspired by my experience working at Frost Bite, a volunteer-based ice cream sho
 
 ## Screenshots
 <p float="left">
-  <img src="Screenshot1.png" height="300" align="top" alt="Screenshot of choosing flavor section"/>
-  <img src="Screenshot2.png" height="300" align="top" alt="Screenshot of results section"/>
+  <img src="assests/Screenshot1.png" height="300" align="top" alt="Screenshot of choosing flavor section"/>
+  <img src="assests/Screenshot2.png" height="300" align="top" alt="Screenshot of results section"/>
 </p>
+
 
 
 
